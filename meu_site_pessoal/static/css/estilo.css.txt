@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    text-align: center;
+}
+
+.azul-verde {
+    background-color: #4CAF50; /* Verde */
+    color: #008CBA; /* Azul */
+    padding: 2em;
+}
+
+.rosa-roxo {
+    background-color: #D147A3; /* Rosa */
+    color: #6A0572; /* Roxo */
+    padding: 2em;
+}

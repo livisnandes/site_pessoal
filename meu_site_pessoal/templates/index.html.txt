@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilo.css') }}">
+    <title>Meu Site Pessoal</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Site Pessoal</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('azul_verde') }}">Azul e Verde</a></li>
+                <li><a href="{{ url_for('rosa_roxo') }}">Rosa e Roxo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Bem-vindo à minha página pessoal!</h2>
+        <p>Explore as diferentes seções para descobrir mais sobre mim.</p>
+    </section>
+</body>
+</html>

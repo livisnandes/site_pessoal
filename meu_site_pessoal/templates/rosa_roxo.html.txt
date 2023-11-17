@@ -1,0 +1,9 @@
+{% extends 'index.html' %}
+
+{% block conteudo %}
+<section class="rosa-roxo">
+    <h2>Seção Rosa e Roxo</h2>
+    <p>Conteúdo personalizado com as cores rosa e roxo.</p>
+</section>
+{% endblock %}
+
